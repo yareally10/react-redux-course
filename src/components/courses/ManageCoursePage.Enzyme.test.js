@@ -16,7 +16,6 @@ function render(args) {
     loadAuthors: jest.fn(),
     loadCourses: jest.fn(),
     course: newCourse,
-    match: {},
   };
 
   const props = { ...defaultProps, ...args };
